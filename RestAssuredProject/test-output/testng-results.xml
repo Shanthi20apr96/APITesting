@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T18:18:13 GST" name="Default suite" finished-at="2026-10-05T18:18:14 GST" duration-ms="1576">
+  <suite started-at="2026-10-07T18:34:50 GST" name="Default suite" finished-at="2026-10-07T18:34:53 GST" duration-ms="2830">
     <groups>
     </groups>
-    <test started-at="2026-10-05T18:18:13 GST" name="Default test" finished-at="2026-10-05T18:18:14 GST" duration-ms="1576">
-      <class name="apitests.Deserialization">
-        <test-method signature="getData()[pri:0, instance:apitests.Deserialization@52719fb6]" started-at="2026-10-05T18:18:13 GST" name="getData" finished-at="2026-10-05T18:18:14 GST" duration-ms="1503" status="PASS">
+    <test started-at="2026-10-07T18:34:50 GST" name="Default test" finished-at="2026-10-07T18:34:53 GST" duration-ms="2830">
+      <class name="apitests.Student">
+        <test-method signature="studentDetails()[pri:0, instance:apitests.Student@6fdbe764]" started-at="2026-10-07T18:34:50 GST" name="studentDetails" finished-at="2026-10-07T18:34:53 GST" duration-ms="2774" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-      </class> <!-- apitests.Deserialization -->
+        </test-method> <!-- studentDetails -->
+      </class> <!-- apitests.Student -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
