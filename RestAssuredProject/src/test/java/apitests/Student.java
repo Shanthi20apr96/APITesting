@@ -30,7 +30,7 @@ public class Student {
 	.post("http://localhost:3000/students")
 	.then()
 	.log().body()
-	.statusCode(200)
+	.statusCode(201)
 	//validating array
 	.body("courses", hasItem("Selenium"))
 	.body("courses", hasItems("Selenium","Java"))
