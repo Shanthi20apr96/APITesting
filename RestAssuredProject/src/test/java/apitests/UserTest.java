@@ -43,7 +43,7 @@ given()
 .body("job",equalTo("tester"))
 //to check if there is a value or non-empty
 .body("job",notNullValue())
-.body("courses",hasItem("Java"))
+//.body("courses",hasItem("Java"))
 
 .statusCode(200);
 

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-12T12:52:52 GST" name="Default suite" finished-at="2026-10-12T12:52:54 GST" duration-ms="1658">
+  <suite started-at="2026-10-12T12:58:35 GST" name="Default suite" finished-at="2026-10-12T12:58:39 GST" duration-ms="4488">
     <groups>
     </groups>
-    <test started-at="2026-10-12T12:52:52 GST" name="Default test" finished-at="2026-10-12T12:52:54 GST" duration-ms="1658">
-      <class name="apitests.Deserialization">
-        <test-method signature="getData()[pri:0, instance:apitests.Deserialization@52719fb6]" started-at="2026-10-12T12:52:52 GST" name="getData" finished-at="2026-10-12T12:52:54 GST" duration-ms="1606" status="PASS">
+    <test started-at="2026-10-12T12:58:35 GST" name="Default test" finished-at="2026-10-12T12:58:39 GST" duration-ms="4488">
+      <class name="apitests.UserTest">
+        <test-method signature="createUser()[pri:1, instance:apitests.UserTest@2e6a8155]" started-at="2026-10-12T12:58:35 GST" name="createUser" finished-at="2026-10-12T12:58:38 GST" duration-ms="2831" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getData -->
-      </class> <!-- apitests.Deserialization -->
+        </test-method> <!-- createUser -->
+        <test-method signature="updateUser()[pri:2, instance:apitests.UserTest@2e6a8155]" started-at="2026-10-12T12:58:38 GST" name="updateUser" finished-at="2026-10-12T12:58:39 GST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="updateJob()[pri:3, instance:apitests.UserTest@2e6a8155]" started-at="2026-10-12T12:58:39 GST" name="updateJob" finished-at="2026-10-12T12:58:39 GST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJob -->
+      </class> <!-- apitests.UserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
