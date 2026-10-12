@@ -8,7 +8,7 @@ public class DemoApi {
 public void getRequest() {
 	given()
 	.when()
-	.get("http://localhost:3000/books/tJ9m3E2-hJk")
+	.get("http://localhost:3000/students/q9ctwsSBkbE")
 	.then()
 	.statusCode(200);
 	
